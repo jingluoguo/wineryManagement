@@ -1,0 +1,273 @@
+/* login page */
+
+.loginform {
+	max-width: 800px;
+	margin: 100px auto;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.login-head {
+	margin: 0;
+	padding: 25px 15px 0;
+	text-align: center;
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.head-text {
+	position: absolute;
+	top: -60px;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.login-message {
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 15px;
+}
+
+.login-area {
+	text-align: center;
+}
+
+.input-username,
+.input-password {
+	top: 0;
+}
+
+
+/* register page */
+
+.register-body {
+	background-color: #ccc;
+}
+
+.register-body2 {
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 100px auto;
+	padding: 0 5px;
+	max-width: 680px;
+}
+
+.register-head {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 2px solid #c9c7c7;
+	background-color: #fff;
+}
+
+.logo {
+	float: left;
+}
+
+.logo>img {
+	margin: 0;
+	padding: 0;
+	display: block;
+	max-width: 100%;
+}
+
+.register-area {
+	background: #fff;
+}
+
+.area-head {}
+
+.area-head h6 {
+	font-size: 1.6rem;
+	padding: 10px 15px;
+	border-bottom: 3px solid #aaa;
+}
+
+.register-body2 .input-regigter {
+	width: 88%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.register-body2 .btn-block {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.register-body2 span {
+	color: red;
+}
+
+
+/* content page */
+
+.content {
+	color: #000;
+}
+
+.content .navbar-brand {
+	padding: 0 15px;
+}
+
+.nav-icon {
+	margin-right: 5px;
+}
+
+.price-area {
+	display: inline-block;
+	padding: 7px 0;
+}
+
+.book-list {
+	text-align: center;
+}
+
+.book-list thead tr th {
+	text-align: center;
+}
+
+.book-list>tbody>tr>td {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.content .dropdown-menu span {
+	padding: 0 10px;
+}
+
+.content .dropdown-menu li {
+	padding: 10px 0;
+}
+
+.content .dropdown-menu {
+	left: -50px;
+}
+
+.content .dropdown-menu li a {
+	height: 100%;
+	text-align: center;
+}
+
+.content .dropdown-menu li.divider {
+	padding: 0;
+}
+
+.dropdown-serach-menu {
+	min-width: 600px;
+	padding: 0;
+}
+
+#dropdown-serach-menu {
+	padding: 20px 0;
+}
+
+#dropdown-serach-menu li {
+	padding: 0;
+}
+
+#dropdown-serach-menu .form-group {
+	margin-bottom: 0;
+}
+
+.content .control-label {
+	text-align: center;
+	padding: 0;
+	padding-top: 7px;
+}
+
+.content .count {
+	text-align: center;
+	padding: 0;
+}
+
+.control-count {
+	padding: 0 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.show-count {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.itemCount {
+	color: red;
+}
+
+.change-button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background-color: 0;
+	display: inline;
+	color: #1414b6;
+	position: absolute;
+	right: 90px;
+	top: 7px;
+}
+
+.shopCart-list-item {
+	position: relative;
+	text-align: center;
+}
+
+.shopCart-list-item .form-group {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.order-area {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border-top: 3px solid #dbd3d3;
+	font-size: 20px;
+}
+
+.order-area>p {
+	float: left;
+	line-height: 35px;
+	margin-right: 20px;
+}
+
+.order-area span.glyphicon {
+	color: #fff;
+}
+
+.order-area span {
+	color: #d60d0d;
+	font-weight: bold;
+}
+
+.order-area button.btn {
+	padding: 3px 12px;
+	margin-top: 5px;
+}
+
+.order-area a.btn {
+	padding: 3px 12px;
+	margin-top: 5px;
+}
+
+
+/* acount page */
+
+.acount-body {
+	background-color: #ccc;
+}
+
+.acount-body .account-recharge {
+	color: #fff;
+	padding: 0 5px;
+}
+
+.acountUsername {
+	border: none;
+}
+
+.account-blance {
+	font-size: 30px;
+	text-align: right;
+}
